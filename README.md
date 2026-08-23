@@ -18,7 +18,9 @@ Global Superstore is a simulated global retail dataset spanning **25,035 orders,
 
 ## Data Model
 
-A normalized relational schema (11 tables) was designed to support order-, product-, and customer-level analysis — including surrogate keys, market/country hierarchies, and category dimensions. See [`data_model/ER_diagram.png`](./data_model/ER_diagram.png).
+A normalized relational schema (11 tables) was designed to support order-, product-, and customer-level analysis — including surrogate keys, market/country hierarchies, and category dimensions.
+
+![ER Diagram](./data_model/ER_diagram.png)
 
 **Data preparation** included:
 - Resolving 41,000+ missing postal codes
@@ -97,4 +99,5 @@ Full set of dashboards (10 views covering regional, category, and customer analy
 
 ## My Contribution
 Data model design, SQL view/query development (market sales, gross profit margin, category market share, customer inactivity logic, segmentation), and Tableau dashboards for Overview and Customer Analysis sections.
+
 
