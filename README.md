@@ -98,5 +98,3 @@ Full set of dashboards (10 views covering regional, category, and customer analy
 ## My Contribution
 Data model design, SQL view/query development (market sales, gross profit margin, category market share, customer inactivity logic, segmentation), and Tableau dashboards for Overview and Customer Analysis sections.
 
----
-<sub>Team project. Contributors: Jennie Li, Sammi Jiang, Yuyuan (Jade) Wang.</sub>
