@@ -1,8 +1,8 @@
 # Global Superstore: Sales, Category & Customer Analysis
 
-**SQL | Data Modeling | Tableau**
+**By Jade Wang** &nbsp;·&nbsp; SQL | Data Modeling | Tableau
 
-> Originally developed as a course project for *Database Design & Management (MASY-GC3500)*, NYU School of Professional Studies, Spring 2025. This repo reflects my individual contribution — I designed the data model, wrote the majority of the SQL analysis, and led the Overview, Category, and Customer Analysis modules. Full team: Jennie Li, Sammi Jiang, Yuyuan (Jade) Wang.
+I designed the relational data model, wrote the SQL analysis layer, and led the Overview, Category, and Customer Analysis modules for this project — analyzing 25,000+ global retail transactions to separate revenue performance from actual profitability.
 
 ---
 
@@ -44,6 +44,18 @@ Identified two distinct behavioral segments: high-value/low-frequency buyers (e.
 
 ---
 
+## Data Visualization
+
+| | |
+|---|---|
+| ![Market Area Sales](./dashboard/01_market_area_sales.png) | ![Quarterly Sales & Profit](./dashboard/02_quarterly_sales_profit.png) |
+| ![Category Sales](./dashboard/04_category_sales.png) | ![Category Performance — Profit vs Discount](./dashboard/07_category_performance_scatter.png) |
+| ![Category Market Share](./dashboard/06_category_market_share.png) | ![Customer Segmentation](./dashboard/09_customer_segmentation.png) |
+
+Full set of dashboards (10 views covering regional, category, and customer analysis) available in [`/dashboard`](./dashboard).
+
+---
+
 ## Business Recommendations
 
 - **Cut or renegotiate discount strategy on Tables** — currently value-destructive at scale
@@ -57,15 +69,25 @@ Identified two distinct behavioral segments: high-value/low-frequency buyers (e.
 
 ```
 ├── README.md
+├── index.html                     # Case study landing page
 ├── data_model/
 │   └── ER_diagram.png
+├── dashboard/
+│   ├── 01_market_area_sales.png
+│   ├── 02_quarterly_sales_profit.png
+│   ├── 03_top_customers_state.png
+│   ├── 04_category_sales.png
+│   ├── 05_profit_margin_category.png
+│   ├── 06_category_market_share.png
+│   ├── 07_category_performance_scatter.png
+│   ├── 08_customer_churn.png
+│   ├── 09_customer_segmentation.png
+│   └── 10_top_products.png
 ├── sql/
 │   └── analysis_queries.sql       # views + queries: market sales, category margin,
 │                                   # market share, churn flagging, segmentation
-├── dashboard/
-│   └── tableau_screenshots/       # + link to Tableau Public workbook
 └── report/
-    └── Global_Superstore_Report.pdf   # full original report (team submission)
+    └── Global_Superstore_Report.pdf   # full original report
 ```
 
 ---
@@ -75,3 +97,6 @@ Identified two distinct behavioral segments: high-value/low-frequency buyers (e.
 
 ## My Contribution
 Data model design, SQL view/query development (market sales, gross profit margin, category market share, customer inactivity logic, segmentation), and Tableau dashboards for Overview and Customer Analysis sections.
+
+---
+<sub>Team project. Contributors: Jennie Li, Sammi Jiang, Yuyuan (Jade) Wang.</sub>
